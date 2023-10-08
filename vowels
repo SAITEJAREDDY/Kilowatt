@@ -1,0 +1,11 @@
+def vowel(string):
+    s=list(string)
+    x=0
+    l=['a','e','i','o','u']
+    for i in s:
+        if i in l:
+            x=x+1
+    return x
+
+String_input=input("Please enter the word")
+print(vowel(String_input))

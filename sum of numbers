@@ -1,0 +1,7 @@
+user_input=input("Please enter only numbers sperated by spaces")
+l=user_input.split()
+l=[int(i) for i in l]
+s=0
+for i in l:
+    s=s+i
+print(s)
